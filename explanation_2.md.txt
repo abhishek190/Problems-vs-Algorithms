@@ -1,0 +1,7 @@
+The idea is to find the pivot point, divide the array in two sub-arrays and call binary search.
+The main idea for finding pivot is – for a sorted (in increasing order) and pivoted array, pivot element is the only element for which next element to it is smaller than it.
+Using above criteria and binary search methodology we can get pivot element in O(logn) time
+Time complexity: O(log n).
+The time complexity of binary search is O(log n).
+Space Complexity: O(1).
+Constant extra space is needed.

@@ -1,0 +1,5 @@
+the idea is to buld two numbers by alternating picking digits from the array(assuming it is sorted
+in ascending order).so the first number is formed by digits in odd position by traversing in reversed
+order and second no by traversing in even position and at last return the two no
+Time complexity O(nlogn)
+space complexity O(n)  

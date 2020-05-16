@@ -1,0 +1,17 @@
+find square root in O(logn) time without using any defined library
+The idea is to find the largest integer i whose square is less than or equal to the given number.
+The idea is to use Binary Search to solve the problem. The values of i * i is monotonically increasing,
+so the problem can be solved using binary search.
+Time complexity: O(log n).
+The time complexity of binary search is O(log n).
+Space Complexity: O(1).
+Constant extra space is needed.
+
+
+
+
+
+
+
+
+

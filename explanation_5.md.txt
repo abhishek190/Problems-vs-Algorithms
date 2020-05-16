@@ -1,0 +1,8 @@
+1: Search for given query using standard Trie search algorithm.
+2: If query prefix itself is not present, return -1 to indicate the same.
+3: If query is present and is end of word in Trie, print query. This can quickly checked by seeing if last matching node has isEndWord flag set. We use this flag in Trie to mark end of word nodes for purpose of searching.
+4: If last matching node of query has no children, return.
+5: Else recursively print all nodes under subtree of last matching node.
+
+Time Complexity: O(n * m) where n is the number of unique letters/words and m is the length of the longest word.
+Space complexity:O(n*m) where n is the number of unique letters/words and m is the length of the longest word.

@@ -1,0 +1,19 @@
+in this i used Trie data structure created three class 
+1 RouteTrie
+2 RouteTrieNode
+3 Router
+RouteTrie uses to create Tree insertion and search is done here 
+RouteTrieNode is used to create new node for Trie here initialization is done 
+Router is used add handler and lookup
+i used Trie data structure to optimise its time and space complexity 
+Complexity: O(n * m) where n is the number of unique routes or URL(s) and m is the length of the longest piece of URL separated by backslash.
+
+​In this trie datastructure first i m creating Trie node which stores children of Trie and handler
+which is done in RouteTrieNode.The after creating children i initilize the Trie with root of Trie 
+in this part i am inserting children of Trie and handler wich comes from Router for inserting i used 
+insert function that i defind and for search find function .Router class handle the handler and for lookup 
+check wheather that path is present or not.
+
+For this type of problem Trie datastructure is very usefull because it optimise the code magnificiently
+if i go naive approach it will give O(n*n) but using Trie Complexity: O(n * m) where n is the number of 
+unique routes or URL(s) and m is the length of the longest piece of URL separated by backslash.

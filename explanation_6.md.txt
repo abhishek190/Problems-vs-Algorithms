@@ -1,0 +1,5 @@
+Logic behind this problem is to take two variable Max and Min and initialzie it with first 
+no of array and compare it with array during iteraton .Traversing the list only one time thats why 
+its time complexity is O(n) and space complexity is O(1)
+Local variable only take O(1) space complexity 
+  
